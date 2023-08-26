@@ -1,0 +1,136 @@
+.default-container {
+    &.container08 {
+        background-image: url(../../img/humanFlight/01.jpg);
+        background-position: top right;
+    }
+
+    &.container09 {
+        background-image: url(../../img/humanFlight/02.jpg);
+    }
+
+    &.container10 {
+        background-image: url(../../img/humanFlight/03.jpg);
+    }
+
+    &.container11 {
+        background-image: url(../../img/humanFlight/04.jpg);
+    }
+
+    &.container12 {
+        background-image: url(../../img/humanFlight/05.jpg);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    }
+}
+
+.start-content-human {
+    color: #d4cece;
+    font-family: "Rubik", sans-serif;
+
+    .title-human {
+        font-size: 2.7rem;
+    }
+
+    .subtitle-human {
+        font-size: 1.1rem;
+        color: #d4cece;
+    }
+}
+
+.fly-description {
+    background-color: #000;
+    height: 30vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &-text {
+        color: $table-item-color;
+        font-size: 1.1rem;
+        text-transform: none;
+    }
+}
+
+.container-right-content, .container-left-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 90vh;
+    margin-left: 5%;
+
+    button {
+        border: 2px solid #fff;
+        font-weight: bold;
+    }
+}
+
+.title-right-left {
+    font-size: 3.2rem;
+}
+    
+.subtitle-right-left {
+    font-weight: 300;
+}
+
+
+@media (min-width: 710px) {
+    .start-content-human {
+        .title-human {
+            font-size: 3.8rem;
+        }
+
+        .subtitle-human {
+            font-size: 1.3rem;
+        }
+
+        .arrow-down {
+            width: 150px;
+        }
+    }
+
+    .container-right-content, .container-left-content {
+        margin-left: 10%;
+    }
+}
+
+@media (min-width: 860px) {
+    .start-content-human {
+        .title-human {
+            font-size: 5.5rem;
+        }
+
+        .subtitle-human {
+            font-size: 1.5rem;
+        }
+    }
+
+    .fly-description {
+        &-text {
+            font-size: 1.3rem;
+        }
+    }
+    
+    .container-right-content {
+        margin-left: 55%;
+    }
+
+    .container-left-content {
+        margin-left: 5%;
+    }
+
+    .title-right-left {
+        font-size: 4rem;
+    }
+}
+
+@media (min-width: 1280px) {
+    .start-content-human {
+        .title-human {
+            font-size: 6rem;
+        }
+
+        .subtitle-human {
+            font-size: 1.7rem;
+        }
+    }
+}

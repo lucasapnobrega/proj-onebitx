@@ -1,0 +1,32 @@
+.default-container {
+    &.container01 {
+        background-image: url(../../img/home/01.jpg);
+    }
+
+    &.container02 {
+        background-image: url(../../img/home/02.jpg);
+    }
+
+    &.container03 {
+        background-image: url(../../img/home/03.gif);
+    }
+
+    &.container04 {
+        background-image: url(../../img/home/04.jpg);
+    }
+}
+
+.title-padding {
+    padding-top: 15rem;
+}
+
+@media (min-width: 1020px) {
+    .title {
+        font-size: 3rem;
+        width: 600px;
+    }   
+
+    .subtitle {
+        font-size: 1.5rem;
+    }
+}
