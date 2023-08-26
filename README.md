@@ -14,3 +14,5 @@ variables.scss = variáveis usadas ao longo do projeto |
 ./pages: estilos das páginas de maneira individual | 
 
 style: importação dos arquivos.scss |
+
+© onebitcode
