@@ -6,7 +6,11 @@ Projeto clone do spaceX
 - Bootstrap (container e carrosel)
 
 Sass => 
+
 commonsElements.scss: elementos em comum para toda a aplicação | 
+
 variables.scss = variáveis usadas ao longo do projeto | 
-./pages.scss: estilos das páginas de maneira individual | 
+
+./pages: estilos das páginas de maneira individual | 
+
 style: importação dos arquivos.scss |
